@@ -9,3 +9,22 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand {
     font-family: 'Balsamiq Sans', cursive;
 }
+
+.nav-container {}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+    background: url(images/bg.jpghttps://www.applewellnesscenter.com/wp-content/uploads/2015/10/Tattooed-Man-Reading-iStock_000002288827_Medium-1024x684.jpg) no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.quotes-container {}
+
+.features-container {}
+
