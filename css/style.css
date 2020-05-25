@@ -139,7 +139,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-wide-alert {
-    border-radius: 0;
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    padding: 5px 15px;
     margin-bottom: 0;
-    padding: 5px, 15px;
+    border: 1px solid transparent;
+    border-radius: 0;
 }
