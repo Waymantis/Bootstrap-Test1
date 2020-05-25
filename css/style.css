@@ -2,6 +2,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+ 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Balsamiq Sans', cursive;
 }
@@ -38,7 +47,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .quotes-container {}
 
-.features-container {}
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
 
 /*jumbotron*/
 
@@ -79,6 +97,27 @@ h1, h2, h3, h4, h5, h6 {
     height: 5px;
     border: 0;
     background-color: #f05f40;
+}
+
+.block-divider-short {
+    width: 25px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider-short--white {
+    width: 25px;
+    height: 5px;
+    border: 0;
+    background-color: white;
+}
+
+/* content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* buttons */
@@ -150,4 +189,29 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid transparent;
     border-radius: 0;
     text-align: center;
+}
+
+/* page headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
